@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+       margin: 0;
+       padding: 0;
+        background-color:lightblue;
+
+    }
+   
+    .main-login {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(334deg, rgba(255,255,255,1) 14%, rgba(144,169,242,1) 36%);
+        transform: translate(-50%, -50%);
+    
+    }
+
+    .left-login {
+        position: absolute;
+        top: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    .right-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .text-field {
+        position: relative;
+        top: -100px;
+        padding: 20px;
+        
+    }
+
+    .text-field > input {
+        border: none;
+        width: 300px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 35px;
+        outline: none;
+        margin-bottom: -15px;
+    }
+
+    .button-login {
+        position: relative;
+        top: -100px;
+        left: 50%;
+        color: white;
+        font-weight: 900;
+        text-transform: uppercase;
+        background-color:rgb(81, 119, 235) ;
+        border: none;
+        width: 150px;
+        height: 50px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transform: translate(-50%);
+    }
+
+    .fgt-pass > a {
+        position: relative;
+        top: -80px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .sing-up {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        color: rgba(0, 0, 0, 0.596);
+
+
+        transform: translate(-50%);
+    }
+
+    .sociais > a > img {
+        position: relative;
+        width: 30px;
+        top: 500px;
+        left: 21%;
+        margin-left: 15px;
+        border: 1px solid rgba(124, 217, 240, 0.603);
+        border-radius: 30px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.315);
+        
+    }
+
+    .btn-singup {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: rgb(81, 119, 235);
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        border-radius: 15px;
+        padding: 12px;
+        
+    }
+
+    .btn-singup > a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-size: 1.2em;
+        
+        
+        
+        
+    }
